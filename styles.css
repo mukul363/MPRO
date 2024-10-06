@@ -7,12 +7,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background: url('data-science-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
 }
 
 header {
-    background: #007bff;
+    background: rgba(0, 123, 255, 0.8); /* Semi-transparent background */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -35,7 +36,7 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 20px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -47,7 +48,7 @@ h2 {
 footer {
     text-align: center;
     padding: 10px;
-    background: #007bff;
+    background: rgba(0, 123, 255, 0.8); /* Semi-transparent background */
     color: #fff;
     position: relative;
     bottom: 0;
